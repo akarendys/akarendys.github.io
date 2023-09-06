@@ -9,7 +9,7 @@ body {
   
   p {
     font-family: verdana;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
   }
 
@@ -24,10 +24,6 @@ body {
   h2 {
     text-align: center;
   }
-
-  h3 {
-    text-align: center;
-  }
   
   figure {
     text-align: center;
@@ -36,6 +32,11 @@ body {
   nav {
     text-align: center;
   }
-  img {
+
+  footer {
     text-align: center;
+  }
+
+  ul {
+    
   }
