@@ -37,3 +37,7 @@ body {
     text-align: center;
   }
 
+  ul {
+    max-width: 600px;
+  }
+
