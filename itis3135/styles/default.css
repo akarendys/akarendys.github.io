@@ -20,6 +20,10 @@ body {
   h1 {
     text-align: center;
   }
+
+  h2 {
+    text-align: center;
+  }
   
   figure {
     text-align: center;
@@ -36,7 +40,6 @@ body {
   main {
     margin-left: 150px;
     margin-right: 150px;
-    text-align: center;
   }
 
 
