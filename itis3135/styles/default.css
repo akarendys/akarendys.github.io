@@ -24,6 +24,10 @@ body {
   h2 {
     text-align: center;
   }
+  
+  h3 {
+    text-align: center;
+  }
 
   nav {
     text-align: center;
@@ -42,6 +46,9 @@ body {
     text-align: center;
   }
   table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
     border-collapse: collapse;
     width: 100%;
   }
