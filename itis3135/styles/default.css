@@ -24,10 +24,6 @@ body {
   h2 {
     text-align: center;
   }
-  
-  h3 {
-    text-align: center;
-  }
 
   nav {
     text-align: center;
@@ -40,11 +36,13 @@ body {
   main {
     margin-left: 400px;
     margin-right: 400px;
+    text-align: center;
   }
 
   figure {
     text-align: center;
   }
+  
   table {
     border-collapse: collapse;
     width: 100%;
