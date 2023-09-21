@@ -7,65 +7,45 @@
     <link rel="stylesheet" href="styles/default.css">
 </head>
 <body>
-    <header>
-        <h1>Alexander Karendys' Adventurous Kangaroo || ITIS 3135</h1>
-        <nav>
-            <a href="./">Home</a>
-            ||
-            <a href="introduction.html">Introduction</a>
-            ||
-            <a href="contract.html">Contract</a>
-            ||
-            <a href="tables.html">Tables</a>
-            ||
-            <a href="forms.html">Forms</a>
-        </nav>
-    </header>
+    <div data-include="components/header.html"></div>
     <main>
         <h2>Forms</h2>
         <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <label for="name" >Name:</label>
+            <input type="text" id="name" name="name" required style="width: 200px;">
             <br>
-    
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" placeholder="1234567890" required>
+
+            <label for="phone" >Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="1234567890" required style="width: 200px;">
             <br>
-    
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
+
+            <label for="email" >Email Address:</label>
+            <input type="email" id="email" name="email" required style="width: 200px;">
             <br>
-    
-            <label>Choose your preferences:</label>
-            <input type="checkbox" id="preference1" name="preferences" value="Option 1"> Option 1
-            <input type="checkbox" id="preference2" name="preferences" value="Option 2"> Option 2
+
+            <label >Choose your preferences:</label>
+            <input type="checkbox" id="preference1" name="preferences" value="Option 1" > Option 1
+            <input type="checkbox" id="preference2" name="preferences" value="Option 2" > Option 2
             <br>
-    
-            <label>Select one option:</label>
-            <input type="radio" id="option1" name="choice" value="Option 1"> Option 1
-            <input type="radio" id="option2" name="choice" value="Option 2"> Option 2
+
+            <label >Select one option:</label>
+            <input type="radio" id="option1" name="choice" value="Option 1" > Option 1
+            <input type="radio" id="option2" name="choice" value="Option 2" > Option 2
             <br>
-    
-            <label for="dropdown">Select an item:</label>
-            <select id="dropdown" name="dropdown" required>
+
+            <label for="dropdown" >Select an item:</label>
+            <select id="dropdown" name="dropdown" required style="width: 200px;">
                 <option value="item1">Item 1</option>
                 <option value="item2">Item 2</option>
                 <option value="item3">Item 3</option>
             </select>
             <br>
-    
-            <input type="reset" value="Reset">
-            <input type="submit" value="Submit">
+
+            <input type="reset" value="Reset" >
+            <input type="submit" value="Submit" >
         </form>
     </main>
-    <footer>
-        <p>Page by <a href="karendysenterprises.com/">Karendys Enterprises</a> © 2023</p>
-        <a href="https://validator.w3.org/check?uri=referer">
-            <img style="border:0;width:88px;height:31px" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png" alt="Valid HTML!">
-        </a>
-        <a href="https://jigsaw.w3.org/css-validator/check/referer">
-            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
-        </a>
-    </footer>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/HTMLInclude.min.js"></script>
 </body>
 </html>
