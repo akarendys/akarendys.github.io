@@ -16,19 +16,13 @@ p {
 a {
   color:fuchsia;
   text-align: center;
+  text-decoration: none;
 }
 
-h1 {
+h1, h2, h3 {
   text-align: center;
 }
 
-h2 {
-  text-align: center;
-}
- 
-h3 {
-  text-align: center;
-}
 
 .image-container {
   text-align: center;
@@ -100,3 +94,6 @@ input[type="text"], input[type="tel"], input[type="email"], select {
   color: #555;
 }
 
+a:hover {
+  color: darkviolet;
+}
