@@ -10,13 +10,13 @@
     <div data-include="components/header.html"></div>
     <main>
         <h2>Forms</h2>
-        <form>
+        <form action="#" method="post">
             <label for="name" >Name:</label>
             <input type="text" id="name" name="name" required style="width: 200px;">
             <br>
 
             <label for="phone" >Phone Number:</label>
-            <input type="tel" id="phone" name="phone" required style="width: 200px;">
+            <input type="tel" id="phone" name="phone" placeholder="1234567890" required style="width: 200px;">
             <br>
 
             <label for="email" >Email Address:</label>
@@ -29,8 +29,8 @@
             <br>
 
             <label >Select one option:</label>
-            <input type="radio" id="option1" name="choice"> Option 1
-            <input type="radio" id="option2" name="choice"> Option 2
+            <input type="radio" id="option1" name="choice" value="Option 1" > Option 1
+            <input type="radio" id="option2" name="choice" value="Option 2" > Option 2
             <br>
 
             <label for="dropdown" >Select an item:</label>
