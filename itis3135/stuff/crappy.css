@@ -1,0 +1,29 @@
+p {
+    font-family: 'Papyrus';
+    margin-left: 650;
+    font-size: 100px;
+    color:chartreuse;
+    background-color: cyan;
+}
+
+h2 {
+    font-family: 'Times New Roman';
+    margin-left: 700;
+    margin-right: 10;
+    color: khaki;
+}
+
+h3 {
+    font-family: 'Comic Sans MS';
+    margin-top: 50px; 
+    margin-bottom: 10px; 
+    
+}
+
+ul {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
