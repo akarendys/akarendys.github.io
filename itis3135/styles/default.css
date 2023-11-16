@@ -54,6 +54,11 @@ ul[name="emmetBullets"] {
   margin-left: 350px;
   margin-right: 200px;
 }
+
+ul[name="evalutionBullets"] {
+  margin-left: 350px;
+  margin-right: 200px;
+}
   
 figure {
   text-align: center;
