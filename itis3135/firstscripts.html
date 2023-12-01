@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Karendys' Adventours Kangaroo || ITIS 3135 || First Scripts</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h2>First Scripts</h2>
+        <h3 id="dateTime"></h3>
+
+        <form id="userForm">
+            <label for="userName">Name:</label>
+            <input type="text" id="userName" name="userName" required>
+
+            <label for="userMood">How are you feeling?</label>
+            <input type="text" id="userMood" name="userMood" required>
+
+            <label for="favoriteNumber">Favorite Number:</label>
+            <input type="number" id="favoriteNumber" name="favoriteNumber" required min="0" max="10">
+            <div>
+                <button type="button" onclick="submitForm()">Submit</button>
+            </div>
+            
+            <button type="button" onclick="hopCounter()">Hop Counter</button>
+            <button type="button" onclick="pouchFortuneTeller()">Pouch Fortune Teller</button>
+            <button type="button" onclick="boomerangReturnTest()">Boomerang Return Test</button>
+            <button type="button" onclick="kangarooSongComposer()">Kangaroo Song Composer</button>
+        </form>
+
+        <div id="welcomeMessage"></div>
+
+        <script src="scripts/defaultscripts.js"></script>
+    </main>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/HTMLInclude.min.js"></script>
+</body>
+</html>

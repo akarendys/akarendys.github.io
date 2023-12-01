@@ -46,18 +46,18 @@ main {
 }
 
 ul {
-  margin-left: 50px;
+  margin-left: 150px;
   margin-right: 50px;
 }
 
-ul[name="emmetBullets"] {
-  margin-left: 350px;
-  margin-right: 200px;
+div.emmetBullets {
+  margin-left: 450px;
+  margin-right: 100px;
 }
 
-ul[name="evaluationBullets"] {
-  margin-left: 300px;
-  margin-right: 200px;
+div.evaluationBullets {
+  margin-left: 450px;
+  margin-right: 100px;
 }
   
 figure {
@@ -106,4 +106,28 @@ input[type="text"], input[type="tel"], input[type="email"], select {
 
 a:hover {
   color: darkviolet;
+}
+
+input[type="text"] {
+  width: 200px;
+  display: block;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+#welcomeMessage {
+  text-align: center;
+}
+
+.user-form {
+  margin-bottom: 20px;
+}
+
+.user-form label,
+.user-form input {
+  margin-bottom: 10px;
+}
+
+.user-form button {
+  margin-top: 10px; 
 }
