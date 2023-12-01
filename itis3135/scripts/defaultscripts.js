@@ -1,3 +1,11 @@
+function updateDateTime() {    
+    const date = new Date();
+    const currentDateTime = date.toLocaleString();
+    document.getElementById("dateTime").textContent = currentDateTime;
+}
+
+setInterval(updateDateTime, 1000);
+
 function submitForm() {
     var userName = document.getElementById("userName").value;
     var userMood = document.getElementById("userMood").value;
@@ -29,7 +37,7 @@ function determinePolygonName(number) {
 }
 
 function hopCounter() {
-    var hopCount = Math.floor(Math.random() * 100) + 1; // Random number of hops
+    var hopCount = Math.floor(Math.random() * 100) + 1;
     alert("The kangaroo hopped " + hopCount + " times!");
 }
 
@@ -40,7 +48,7 @@ function pouchFortuneTeller() {
 }
 
 function boomerangReturnTest() {
-    var success = Math.random() < 0.5; // 50% chance of success
+    var success = Math.random() < 0.5;
     var result = success ? "The boomerang returned perfectly!" : "Oops! The boomerang didn't come back.";
     alert(result);
 }
@@ -49,6 +57,6 @@ function kangarooSongComposer() {
     var userName = document.getElementById("userName").value;
     var userMood = document.getElementById("userMood").value;
 
-    var song = "🎵 " + userName + " the Kangaroo, hopping through the day,\nFeeling " + userMood + ", in a kangaroo way! 🎶";
+    var song = userName + " the Kangaroo, hopping through the day,\nFeeling " + userMood + ", in a kangaroo way!";
     alert(song);
 }
