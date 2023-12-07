@@ -131,3 +131,94 @@ input[type="text"] {
 .user-form button {
   margin-top: 10px; 
 }
+
+.mainForm{
+  background-color: rgba(255,255,255,0.3);
+  width:80%;
+  margin: auto;
+  text-align: left;
+}
+.formQuestions{
+  font-size: 15px;
+}
+
+#name, #email, #number, #feeling, #mascot, #caption1, #personalBackground1, 
+#professionalBackground1, #academicBackground1, #subjectBackground1, #compPlatform1,
+#funnyOrInteresting1, #share1, #salary, #nameDropdown{
+  width: 99%;
+  font-family: 'Lucida Sans';
+  text-align: left;
+}
+.submitResetButton{
+  text-align: center;
+}
+textarea{
+  width: 99%;
+  font-family: 'Lucida Sans';
+}
+.byoNew {
+  display: none;
+}
+#imageContainer {
+  text-align: center;
+}
+
+#byoImage {
+  display: inline-block;
+}
+
+@media (min-width: 576px) {
+  main {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  img {
+    max-width: 25%;
+    height: auto;
+  }
+}
+
+#calculator {
+  background-color: #3498db; 
+  border: 2px solid #2980b9;
+  display: grid;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 0 20px rgba(0, 128, 0, 0.5);
+  padding: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+#display {
+  background-color: #2980b9;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #3498db;
+  grid-column: span 4;
+}
+
+.calcBtn {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border: 2px solid #1f2c38;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.calcBtn.clicked {
+  background-color: #e74c3c;
+}
+
+#employee-name {
+  margin-left: 5px;
+  margin-right: 400px;
+}

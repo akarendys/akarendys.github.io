@@ -8,16 +8,91 @@
 </head>
 <body>
     <div data-include="components/header.html"></div>
-    <main>
-        <h2>BYO Intro</h2>
-        <h3>Time to BYO Intro page, please fill out the form below so we can create your own page</h3>
-        
-        <form>
-            
+    <main class="mainForm">
+        <h2 id="byoHeader2">BYO Intro</h2>
+        <h3 id="byoHeader3">Time to BYO Intro page, please fill out the form below so we can create your own page.</h3>
+        <form id="byoForm" class="byoForm">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" value="Alexander Karendys" required="">
+            </div>
+            <div>
+                <label for="mascot">Mascot:</label>
+                <input type="text" id="mascot" name="mascot" value="Adventours Kangaroo" required="">
+            </div>
+            <div>
+                <label for="image">Image:</label>
+                <input id="image" name="image" type="file" accept=".jpg, .png" required="">
+            </div>
+            <div>
+                <label for="caption1">Image Caption:</label>
+                <input type="text" id="caption1" name="caption1" value="Love me some bass fishin." required="">
+            </div>
+            <div>
+                <label for="personalBackground1">Personal Background:</label>
+                <input type="text" id="personalBackground1" name="personalBackground1" value="I was born in Colorado Springs, Colorado but raised in Charlotte, NC since I was 3 years old." required="">
+            </div>
+            <div>
+                <label for="professionalBackground1">Professional Background:</label>
+                <input type="text" id="professionalBackground1" name="professionalBackground1" value="I worked as a pizza delivery driver." required="">
+            </div>
+            <div>
+                <label for="academicBackground1">Academic Background:</label>
+                <input type="text" id="academicBackground1" name="academicBackground1" value="I graduated from Ardrey Kell High School and I am a junior at UNCC." required="">
+            </div>
+            <div>
+                <label for="subjectBackground1">Background in this Subject:</label>
+                <input type="text" id="subjectBackground1" name="subjectBackground1" value="I don’t have any experience in html or web design." required="">
+            </div>
+            <div>
+                <label for="compPlatform1">Primary Computer Platform:</label>
+                <input type="text" id="compPlatform1" name="compPlatform1" value="MacOS and Windows." required="">
+            </div>
+            <div>
+                <label for="addCourse">Courses I'm Taking &amp; Why:</label>
+                <button id="addCourse">Click to add a course</button>
+            </div>
+            <div id="inputContainer"></div>
+            <div>
+                <label for="funnyOrInteresting1">Funny/Interesting Item to Remember me by:</label>
+                <input type="text" id="funnyOrInteresting1" name="funnyOrInteresting1" value="I have never broken a bone.">
+            </div>
+            <div>
+                <label for="share1">I'd also like to Share:</label>
+                <input type="text" id="share1" name="share1" value="I’m excited to learn more about web design and development.">
+            </div>
+            <div>
+                <label for="check">I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available.</label>
+                <input type="checkbox" id="check" name="check" required="">
+            </div>
+            <div>
+                <input type="submit">
+                <input type="reset">
+            </div>
         </form>
-        
+        <div class="byoNew" id="intro">
+            <h2>Introduction Demo Page:</h2>
+            <figure id="imageContainer">
+                <img id="byoImage" alt="me" src="./">
+                <figcaption id="caption2"></figcaption>
+            </figure>
+            <ul>
+                <li><b>Personal Background: </b><span id="personalBackground2"></span></li>
+                <li><b>Professional Background: </b><span id="professionalBackground2"></span></li>
+                <li><b>Academic Background: </b><span id="academicBackground2"></span></li>
+                <li><b>Background in this Subject: </b><span id="subjectBackground2"></span></li>
+                <li><b>Primary Computer Platform: </b><span id="compPlatform2"></span></li>
+                <li><b>Courses I'm Taking &amp; Why:</b>
+                    <ul id="courses"></ul>
+                </li>
+                <li><b>Funny/Interesting Item to Remember me by: </b><span id="funnyOrInteresting2"></span></li>
+                <li><b>I'd also like to Share: </b><span id="share2"></span></li>
+            </ul>
+            <button id="back">Back to form</button>
+        </div>
     </main>
     <div data-include="components/footer.html"></div>
+    <script src="scripts/survey.js"></script>
     <script src="scripts/HTMLInclude.min.js"></script>
 </body>
 </html>
