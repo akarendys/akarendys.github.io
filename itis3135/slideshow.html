@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Karendys' Adventours Kangaroo || ITIS 3135 || Slideshow</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h2>Slideshow</h2>
+        <div class="slideshow">
+            <div class="slides">
+                <img src="images/A.jpg" style="width:100%" alt="A - Apple">
+            </div>
+            <div class="slides">
+                <img src="images/L.jpg" style="width:100%" alt="L - Lemon">
+            </div>
+            <div class="slides">
+                <img src="images/E.jpg" style="width:100%" alt="E - Elephant">
+            </div>
+            <div class="slides">
+                <img src="images/X.jpg" style="width:100%" alt="X - Xylophone">
+            </div>
+            <div class="slides">
+                <img src="images/A_2.jpg" style="width:100%" alt="A - Anchor">
+            </div>
+            <div class="slides">
+                <img src="images/N.jpg" style="width:100%" alt="N - Nest">
+            </div>
+            <div class="slides">
+                <img src="images/D.jpg" style="width:100%" alt="D - Dolphin">
+            </div>
+            <div class="slides">
+                <img src="images/E_2.jpg" style="width:100%" alt="E - Eagle">
+            </div>
+            <div class="slides">
+                <img src="images/R.jpg" style="width:100%" alt="R - Rainbow">
+            </div>
+            <div class="slides">
+                <img src="images/K.jpg" style="width:100%" alt="K - Kite">
+            </div>
+            <div class="slides">
+                <img src="images/A_3.jpg" style="width:100%" alt="A - Acorn">
+            </div>
+            <div class="slides">
+                <img src="images/R_2.jpg" style="width:100%" alt="R - Rose">
+            </div>
+            <div class="slides">
+                <img src="images/E_3.jpg" style="width:100%" alt="E - Envelope">
+            </div>
+            <div class="slides">
+                <img src="images/N_2.jpg" style="width:100%" alt="N - Necklace">
+            </div>
+            <div class="slides">
+                <img src="images/D_2.jpg" style="width:100%" alt="D - Duck">
+            </div>
+            <div class="slides">
+                <img src="images/Y.jpg" style="width:100%" alt="Y - Yogurt">
+            </div>
+            <div class="slides">
+                <img src="images/S.jpg" style="width:100%" alt="S - Sun">
+            </div>
+    
+            <a class="prev" onclick="nextSlides(-1)">&#10094;</a>
+            <a class="next" onclick="nextSlides(1)">&#10095;</a>
+    
+            <div class="caption-slideshow">
+                <p id="caption"></p>
+            </div>
+    
+            <div class="thumbnails">
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/A.jpg" style="width:100%" onclick="currentSlide(1)" alt="A - Apple">
+                </div>
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/L.jpg" style="width:100%" onclick="currentSlide(2)" alt="L - Lemon">
+                </div>
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/E.jpg" style="width:100%" onclick="currentSlide(3)" alt="E - Elephant">
+                </div>
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/X.jpg" style="width:100%" onclick="currentSlide(4)" alt="X- Xylophone">
+                </div>
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/A_2.jpg" style="width:100%" onclick="currentSlide(5)" alt="A - Anchor">
+                </div>
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/N.jpg" style="width:100%" onclick="currentSlide(6)" alt="N - Nest">
+                </div>
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/D.jpg" style="width:100%" onclick="currentSlide(7)" alt="D - Dolphin">
+                </div>
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/E_2.jpg" style="width:100%" onclick="currentSlide(8)" alt="E - Eagle">
+                </div>
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/R.jpg" style="width:100%" onclick="currentSlide(9)" alt="R - Rainbow">
+                </div>
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/K.jpg" style="width:100%" onclick="currentSlide(10)" alt="K - Kite">
+                </div>
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/A_3.jpg" style="width:100%" onclick="currentSlide(11)" alt="A - Acorn">
+                </div>
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/R_2.jpg" style="width:100%" onclick="currentSlide(12)" alt="R - Rose">
+                </div>
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/E_3.jpg" style="width:100%" onclick="currentSlide(13)" alt="E - Envelope">
+                </div>
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/N_2.jpg" style="width:100%" onclick="currentSlide(14)" alt="N - Necklace">
+                </div>
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/D_2.jpg" style="width:100%" onclick="currentSlide(15)" alt="D - Duck">
+                </div>
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/Y.jpg" style="width:100%" onclick="currentSlide(16)" alt="Y - Yogurt">
+                </div>
+                <div class="display">
+                    <img class="thumbnail cursor" src="images/S.jpg" style="width:100%" onclick="currentSlide(17)" alt="S - Sun">
+                </div>
+            </div>
+        </div>
+         
+    </main>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/slideshow.js"></script>
+    <script src="scripts/HTMLInclude.min.js"></script>
+</body>
+</html>

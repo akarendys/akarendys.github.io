@@ -9,7 +9,7 @@ setInterval(updateDateTime, 1000);
 function submitForm() {
     var userName = document.getElementById("userName").value;
     var userMood = document.getElementById("userMood").value;
-    var favoriteNumber = Math.abs(Math.round(parseFloat(document.getElementById("favoriteNumber").value))); // Ensure a positive integer
+    var favoriteNumber = Math.abs(Math.round(parseFloat(document.getElementById("favoriteNumber").value))); 
 
     var welcomeMessage = document.getElementById("welcomeMessage");
     welcomeMessage.innerHTML = "The Karendys Enterprise welcomes you, " + userName + "!</br>We're glad you are doing " + userMood + "!";
