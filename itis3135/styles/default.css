@@ -291,3 +291,8 @@ textarea{
   background-color: #ddd; 
   border-radius: 3px; 
 }
+
+#clientInfo {
+  margin-left: 300px;
+  margin-right: 50px;
+}
