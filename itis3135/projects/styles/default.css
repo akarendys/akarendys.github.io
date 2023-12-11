@@ -110,7 +110,7 @@ section img {
 }
 
 .about-section h2 {
-    color: #2779a7;
+    color: black;
 }
 
 .about-section p {
@@ -140,7 +140,6 @@ section img {
     border-radius: 5px;
 }
 
-/* Add these styles to your CSS file or create a new one */
 
 .contact-info {
     background-color: #000;
@@ -292,4 +291,10 @@ img {
 
 @media only screen and (max-width: 700px) {
     .prev, .next, .text {font-size: 11px}
+}
+
+.image-container {
+    display: flex;
+    width: 25%;
+    margin-left: 650px;;
 }
