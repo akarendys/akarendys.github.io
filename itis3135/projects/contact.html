@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapper Automotive Detailing || ITIS 3135 || Client Project</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h1 class="headerTitle">Contact</h1>
+            
+        <div class="contact-info">
+            <p>Get in Touch</p>
+            <p>10032 Willow Rock Drive, Charlotte, North Carolina, 28277</p>
+            <p>704-619-6470</p>
+            <p>dapperclt@gmail.com</p>
+        </div>
+
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form id="contactForm" onsubmit="return submitForm()">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="service">Service:</label>
+                <select id="service" name="service" required>
+                    <option value="" selected disabled>Select a Service</option>
+                    <option value="complete-detail">Complete Detail</option>
+                    <option value="interior-detail">Interior Detail</option>
+                    <option value="exterior-detail">Exterior Detail</option>
+                    <option value="basic-cleaning">Basic Cleaning</option>
+                    <option value="additional-services">Additional Services</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <div id="submitMessage"></div>
+        </div>
+    </main>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/include.js"></script>
+    <script src="scripts/contact.js"></script>
+</body>
+</html>

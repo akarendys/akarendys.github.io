@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapper Automotive Detailing || ITIS 3135 || Client Project</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h1 class="headerTitle">Recent Work</h1>
+        
+        <div class="slideshow-container">
+            <!-- Slides -->
+            <div class="mySlides">
+                <img src="images/slideshow1.png" alt="Slideshow 1" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            </div>
+            <div class="mySlides">
+                <img src="images/slideshow2.png" alt="Slideshow 2" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            </div>
+            <div class="mySlides">
+                <img src="images/slideshow3.png" alt="Slideshow 3" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            </div>
+            <div class="mySlides">
+                <img src="images/slideshow4.png" alt="Slideshow 4" onclick="openModal();currentSlide(4)" class="hover-shadow">
+            </div>
+            <div class="mySlides">
+                <img src="images/slideshow5.png" alt="Slideshow 5" onclick="openModal();currentSlide(5)" class="hover-shadow">
+            </div>
+            <div class="mySlides">
+                <img src="images/slideshow6.png" alt="Slideshow 6" onclick="openModal();currentSlide(6)" class="hover-shadow">
+            </div>
+            <div class="mySlides">
+                <img src="images/slideshow7.png" alt="Slideshow 7" onclick="openModal();currentSlide(7)" class="hover-shadow">
+            </div>
+            <div class="mySlides">
+                <img src="images/slideshow8.png" alt="Slideshow 8" onclick="openModal();currentSlide(8)" class="hover-shadow">
+            </div>
+            <div class="mySlides">
+                <img src="images/slideshow9.png" alt="Slideshow 9" onclick="openModal();currentSlide(9)" class="hover-shadow">
+            </div>
+
+            <!-- Navigation arrows -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- Modal for enlarged images -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+                <!-- Slides will be added here dynamically -->
+            </div>
+        </div>
+    </main>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/include.js"></script>
+    <script src="scripts/slideshow.js"></script>
+</body>
+</html>

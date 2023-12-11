@@ -19,7 +19,7 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   text-align: center;
 }
 
@@ -174,7 +174,7 @@ textarea{
   }
 
   img {
-    max-width: 25%;
+    max-width: 50%;
     height: auto;
   }
 }
@@ -293,6 +293,18 @@ textarea{
 }
 
 #clientInfo {
-  margin-left: 300px;
+  margin-left: 250px;
+  margin-right: 50px;
+}
+
+.siteImg {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pageDesignInfo ul {
+  margin-left: 175px;
   margin-right: 50px;
 }
